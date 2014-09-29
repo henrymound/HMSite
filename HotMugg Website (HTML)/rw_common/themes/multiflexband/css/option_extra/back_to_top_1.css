@@ -1,0 +1,111 @@
+/* UP: Back to Top Button */
+
+#up {
+	bottom: 0;	
+	z-index: 500;
+	 position: fixed;	
+	text-transform: uppercase;
+	overflow: visible;
+	 letter-spacing: 1px;
+	display: block;
+	height: 40px;
+	width: 60px;
+	right: 22px;
+}
+#up:active {}
+
+#up:active {}
+#up span:before{	content: ""; }
+
+#up span {	
+	margin: 0 auto;
+		
+  display: block !important;
+	padding: 0;
+
+	width: 100%;
+	height: 40px;
+}
+
+#up a:link span {
+	background: url(../../images/elements/icons/up.png) no-repeat 50% 12px;
+	color: #525252;
+		font: 10px/22px "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-indent: 0;
+	letter-spacing: 1px;
+	text-align: center;
+	
+		transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-webkit-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+
+
+}
+
+#up a:hover span {
+	color: #525252;
+}
+
+
+
+
+
+#up a:active span {
+	color: #525252;
+
+	background-position: 50% 30px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+#up {	
+	z-index: 500;
+	 position: fixed;	
+	text-transform: uppercase;
+	 letter-spacing: 1px;
+	display: block;
+	top: -20px;
+	margin-right: auto;
+	margin-left: auto;
+	right: 0;
+	left: 0;
+	margin-top: 20px;
+}
+#up a:before{	content: "";
+	position: absolute;
+	top: 0;
+	text-align: center;
+	font-size: 9px;
+	padding-left: 22px;
+	color: #a7a7a7;
+	padding-top: 7px;
+}
+#up span {	
+	margin: 0 auto;
+		
+  display: block !important;
+	padding: 0;
+
+	width: 100%;
+	height: 40px;
+}
+
+
+
+#up a:link span {
+	background: url(../../images/elements/icons/down.png) no-repeat 50% 0;
+	text-indent: 0;
+	letter-spacing: 1px;
+	text-align: center;
+
+}
+
+
+
+#up a:active span {
+	background-position: 50% -30px;
+}
+}

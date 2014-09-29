@@ -1,0 +1,29 @@
+/* www.multithemes.com */
+.thumbnail-frame img {
+-webkit-border-radius: 250px;
+-moz-border-radius: 250px;
+border-radius: 250px;
+}
+
+.movie-thumbnail-frame, .movie-thumbnail-frame img {
+-webkit-border-radius: 250px;
+-moz-border-radius: 250px;
+border-radius: 250px;
+}
+
+/* 
+
+.thumbnail-frame img {
+-webkit-border-radius: 250px;
+-moz-border-radius: 250px;
+border-radius: 250px;
+}
+
+.movie-thumbnail-frame, .movie-thumbnail-frame img {
+-webkit-border-radius: 250px;
+-moz-border-radius: 250px;
+border-radius: 250px;
+}
+
+
+ */

@@ -1,0 +1,24 @@
+.body_overlay_box, #drop {
+	display: none !important;
+	width: 0 !important;
+	height: 0 !important;
+	visibility: hidden !important;
+}
+#drop.boxopened:after, #drop:after{
+	display: none !important;
+	width: 0 !important;
+	height: 0 !important;
+	visibility: hidden !important;
+}
+#extraContainer4, #extraContainer4 .boxOpened, #extraContainer4 img, #extraContainer4box  {
+	display: none !important;
+	width: 0 !important;
+	height: 0 !important;
+	visibility: hidden !important;
+}
+#drop, #drop:before, #drop.boxopened:before  {
+	display: none !important;
+	width: 0 !important;
+	height: 0 !important;
+	visibility: hidden !important;
+}

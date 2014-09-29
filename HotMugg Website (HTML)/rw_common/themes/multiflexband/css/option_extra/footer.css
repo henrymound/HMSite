@@ -1,0 +1,16 @@
+#container {
+	margin-bottom: 70px;
+}
+
+#sidebarContainer {
+	top: 52px;
+	margin-top: -52px;
+}
+#sidebarContainer .sideHeader {}
+
+@media only screen and (max-width: 601px) {
+#container {
+	margin-bottom: 0;
+}
+
+}

@@ -1,0 +1,17 @@
+.bodyimage2 {
+	background: url(../images/elements/stripe_1.png) no-repeat scroll right bottom;
+	
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	position: fixed;
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 66%;
+}

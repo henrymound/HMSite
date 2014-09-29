@@ -1,0 +1,33 @@
+code {
+	font: 12px Courier, "Courier New", sans-serif;
+}
+
+/* font control tool */
+
+body, a:link, a:visited, #pageHeader h1, pageHeader h2, #sidebarContainer .sideHeader, #footer a:link, #footer a:visited, #navcontainer a, h1, h2, h3, h4, .blog-archive-month, .blog-entry-title, .blog-entry-date, .album-title, .album-description, .thumbnail-caption, .photo-title, .photo-caption, .movie-page-title, .movie-page-description, .movie-thumbnail-caption, .photo-title, .photo-caption, .movie-title  {
+	font-family: Helvetica, Arial, sans-serif;
+}
+blockquote p, .standout, blockquote, .standout, #sidebar blockquote {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#navcontainer2 a {
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+#navcontainer .current,
+#navcontainer ul ul .current,
+#navcontainer u ul ul .current,
+#navcontainer2 ul .current,
+#navcontainer2 ul ul .current,
+#navcontainer2 ul ul ul  .current,
+#navcontainer2 ul ul ul ul  .current,
+#navcontainer2 ul ul ul ul ul  .current,
+#navcontainer4 ul .current,
+#navcontainer4 ul ul .current,
+#navcontainer4 ul ul ul  .current,
+#navcontainer4 ul ul ul ul  .current ,
+#navcontainer4 ul ul ul ul ul  .current,
+{
+	 font-family: Helvetica, Arial, sans-serif;
+}

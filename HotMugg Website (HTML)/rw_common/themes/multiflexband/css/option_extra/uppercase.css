@@ -1,0 +1,7 @@
+/* uppercase */
+.rw-sitemap ul a {
+	text-transform: uppercase;
+}
+#pageHeader h1, #pageHeader h2 {
+	text-transform: uppercase;
+}

@@ -1,0 +1,47 @@
+#navcontainer2 ul ul {	
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+	visibility: visible;
+	overflow: auto;
+
+	transition-delay: 0ms;
+    -webkit-transition-delay: 0ms;
+	-o-transition-delay: 0ms;
+	-moz-transition-delay: 0ms;
+	
+	height: auto;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+
+#navcontainer2 li:hover > ul {
+
+		transition-delay: 0ms;
+    -webkit-transition-delay: 0ms;
+	-o-transition-delay: 0ms;
+	-moz-transition-delay: 0ms;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+
+#navcontainer2 ul ul ul  {
+}
+
+/* ------PARENT first menu explorable + hover */
+#navcontainer2 .parent {
+	transition: All 0s linear;	
+	-webkit-transition: All 0s linear;	
+	-moz-transition: All 0s linear;	
+	-o-transition: All 0s linear;
+	background-image: none;
+}
+#navcontainer2 ul ul .parent {}
+#navcontainer2 .parent:hover {
+	transition: All 0s linear;	
+	-webkit-transition: All 0s linear;	
+	-moz-transition: All 0s linear;	
+	-o-transition: All 0s linear;
+	background-image: none;
+}

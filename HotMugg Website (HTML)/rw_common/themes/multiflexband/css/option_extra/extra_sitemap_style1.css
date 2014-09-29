@@ -1,0 +1,99 @@
+/* formatting for boxes */
+.rw-sitemap ul a {
+	margin-left: 3px;
+	padding-left: 8px;
+	
+}
+
+.rw-sitemap ul {
+/* -webkit-transition: All 1.10s linear; */		
+    padding: 0;
+    margin-bottom: 11px;
+    
+    list-style-position: inside;
+    list-style-image: none;
+	list-style-type: none;
+	
+}
+.rw-sitemap ul li {
+	padding-bottom: 7px;
+	margin-bottom: 10px;
+	 background: url(../../images/elements/grey_6.png);   
+	 
+}
+.rw-sitemap ul ul {
+	padding-left: 11px;	
+	
+	 
+}
+.rw-sitemap ul li {
+
+            
+	transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	
+	/* web-kit transition links CSS3*/
+	transition-delay: 15ms;
+    -webkit-transition-delay: 15ms;
+	-o-transition-delay: 15ms;
+	-moz-transition-delay: 15ms;
+	border-left-width: 1px;	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.rw-sitemap ul li:hover {
+	
+		
+	transition: all 0.10s ease-in-out;
+	-moz-transition: all 0.10s ease-in-out;
+	-webkit-transition: all 0.10s ease-in-out;
+	-o-transition: all 0.10s ease-in-out;
+}
+
+.rw-sitemap ul ul li:hover {
+	border-left-style: solid;
+	border-left-width: 10px;
+}
+/* color by colortag - border */
+.rw-sitemap ul ul li {
+	position: relative;
+}
+.rw-sitemap ul ul li:hover {
+	position: relative;
+	z-index: 3;	
+}
+.rw-sitemap ul li:last-child {}
+.rw-sitemap ul li:last-child:hover {}
+.rw-sitemap ul li li:last-child {}
+.rw-sitemap ul li li:last-child:hover {}
+.rw-sitemap ul ul li li:last-child {}
+.rw-sitemap ul ul li li:last-child:hover {}
+.rw-sitemap ul ul ul li li:last-child {}
+.rw-sitemap ul ul ul li li:last-child:hover {}
+.rw-sitemap ul ul ul ul li li:last-child {}
+.rw-sitemap ul ul ul ul li li:last-child:hover {}
+
+@media only screen and (max-width: 601px) {
+
+.rw-sitemap {
+	width: 96%;
+	padding-left: 0;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.rw-sitemap {
+
+
+	padding-left: 0;
+}
+}

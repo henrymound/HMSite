@@ -1,0 +1,52 @@
+/* social icons buttons */
+
+span.social a {
+	height: 32px;
+	width: 32px;	
+
+  
+	font: 30px/35px 'JustVector';
+	
+	transition: all 0.45s linear;
+	-moz-transition: all 0.45s linear;
+	-webkit-transition: all 0.45s linear;
+	-o-transition: all 0.45s linear;
+	
+	margin: 5px 5px 7px;
+	background-color: #d4d4d4;
+	padding: 6px;
+}
+
+span.social a:hover {
+	transition: all 0.22s linear;
+	-moz-transition: all 0.22s linear;
+	-webkit-transition: all 0.22s linear;
+	-o-transition: all 0.22s linear;
+	background-color: #696969;
+}
+
+span.social {}
+
+/* social icons text/shadow color */
+
+#extraContainer1 span.social a,
+#extraContainer2 span.social a,
+#sidebarContainer span.social a,
+#sidebarContainer #sidebar span.social a,
+span.social a  {
+	color: #909090;
+	text-shadow: #f4f4f4 0 1px 0;
+}
+
+#extraContainer1 span.social a:hover,
+#extraContainer2 span.social a:hover,
+span.social a:hover {
+	color: #444;
+	text-shadow: #f4f4f4 0 1px 5px;
+}
+
+/* fix IE */
+
+.ie9 aside span.social {
+    font-size: 0.93em;
+}

@@ -1,0 +1,39 @@
+#tooltip_visibility { top: 1px; }
+
+/*  @group Tipsy */
+
+.tipsy-inner {
+	
+	/* padding: 5px 8px 4px 8px; */
+	
+    background-color: #f5f5f5;
+    color: #303030;
+    
+    box-shadow: 0 0 5px #bbbbbb;
+    -webkit-box-shadow: 0 0 5px #bbbbbb;
+    -moz-box-shadow: 0 0 5px #bbbbbb;
+}
+
+.tipsy-arrow {
+    border: 5px dashed #EEEEEE;
+}
+
+/* Rules to colour arrows */
+
+.tipsy-arrow-n {
+    border-bottom-color: #EEEEEE;
+}
+
+.tipsy-arrow-s {
+    border-top-color: #EEEEEE;
+}
+
+.tipsy-arrow-e {
+    border-left-color: #EEEEEE;
+}
+
+.tipsy-arrow-w {
+    border-right-color: #f1f0f1;
+}
+
+/*  @end */

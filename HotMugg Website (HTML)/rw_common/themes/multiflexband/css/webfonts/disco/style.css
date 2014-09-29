@@ -1,0 +1,134 @@
+/* :::::::::::::::::::::  */
+
+/* DISCO */
+.rw-sitemap ul a {
+	font: 17px 'DISCORegular', serif;
+	letter-spacing: 0;
+}
+.rw-sitemap ul li li a, .rw-sitemap ul li li li a , .rw-sitemap ul li li li li a, .rw-sitemap ul li li li li li a  {
+	font: 15px 'DISCORegular', serif;
+	letter-spacing: 0;
+}
+.blog-entry-title a,
+.blog-archive-month,
+.blog-archive-month a,
+.filesharing-item-title a,
+.album-title,
+.movie-page-title,
+.photo-title,
+#sidebarContainer .sideHeader {
+	font-family: 'DISCORegular', serif !important;
+	letter-spacing: -1px;
+}
+.standout, blockquote,
+.standout, #sidebar blockquote {
+	font-family: 'DISCORegular', serif !important;
+	letter-spacing: -1px;
+}
+
+.album-title,
+.movie-page-title,
+.blog-entry-title,
+.blog-archive-month,
+.blog-archive-month a {
+   font-family: 'DISCORegular', serif;
+}
+h1, h2, h3, h4, h5, h6 {	
+    font-family: 'DISCORegular', serif;
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {letter-spacing: -2px;}
+h2 {letter-spacing: -1px;}
+h3 {letter-spacing: -1px;}
+h4 {letter-spacing: 0;}
+h5 {	letter-spacing: 0;}
+#navcontainer a{
+	letter-spacing: -1px;
+	text-shadow: none;
+	font-family: 'DISCORegular', serif;
+}
+
+#viewingButton #text{
+	letter-spacing: -1px;
+	font-family: 'DISCORegular', serif;
+}
+#navcontainer ul ul a {
+	text-shadow: none;
+	color: #000;
+	font-size: 13px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+#navcontainer2 a {
+	font-family: 'DISCORegular', serif;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing: -1px;
+}
+/* @group bold OFF */
+#navcontainer2 a:current {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul a {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul .current {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul ul a {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul ul .current {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul ul ul .current {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul ul ul ul .current {
+	font-weight: normal;
+	font-style: normal;
+}
+#navcontainer2 ul ul ul ul ul .current {
+	font-weight: normal;
+	font-style: normal;
+}
+/* @end */
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active,
+h2 a:link, h2 a:visited, h2 a:hover, h2 a:active,
+h3 a:link, h3 a:visited, h3 a:hover, h3 a:active,
+h4 a:link, h4 a:visited, h4 a:hover, h4 a:active,
+h5 a:link, h5 a:visited, h5 a:hover, h5 a:active,
+h6 a:link, h6 a:visited, h6 a:hover, h6 a:active,
+h7 a:link, h7 a:visited, h7 a:hover, h7 a:active {
+	font-family: 'DISCORegular', serif;	
+}
+#pageHeader h1 {
+	letter-spacing: -1px;
+	font-family: 'DISCORegular', serif;
+}
+#pageHeader h2 {
+	letter-spacing: 0;
+	font-family: 'DISCORegular', serif;
+
+}
+
+#blog-archives, ul.blog-tag-cloud, #blog-categories,
+#blog-archives a, ul.blog-tag-cloud a, #blog-categories a{
+	letter-spacing: -1px;
+	font-family: 'DISCORegular', serif;
+}
+
+.share-button, .share-button a, .share-button:before{
+	letter-spacing: -1px;
+	font-family: 'DISCORegular', serif;
+}

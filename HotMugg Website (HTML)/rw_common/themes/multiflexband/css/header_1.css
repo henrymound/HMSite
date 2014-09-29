@@ -1,0 +1,21 @@
+#pageHeader h1 {
+	padding-top: 4%;
+	padding-bottom: 5px;
+}
+#pageHeader h2 {
+	padding-bottom: 4%;
+}
+
+#pageHeader {}
+
+#logo {
+	margin-bottom: -2%;
+}
+
+@media only screen and (max-width: 601px) {
+
+#pageHeader h2 {
+	padding-bottom: 4%;
+}
+
+}

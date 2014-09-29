@@ -1,0 +1,68 @@
+/* social icons buttons */
+
+span.social a {
+	background: url(../images/elements/social_button3.png) repeat left top;
+	height: 44px;
+	width: 44px;	
+	border: none;	
+ 
+	font: 31px/45px 'JustVector';
+	
+	transition: all 0.40s linear;
+	-moz-transition: all 0.40s linear;
+	-webkit-transition: all 0.40s linear;
+	-o-transition: all 0.40s linear;	
+	
+	margin: 2px 2px 4px;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;	
+}
+
+span.social a:hover {
+/***  CSS animation  ***/
+	border: none;	
+	transition: all 0.18s linear;
+	-moz-transition: all 0.18s linear;
+	-webkit-transition: all 0.18s linear;
+	-o-transition: all 0.18s linear;		
+}
+
+.social {
+	position: relative;	
+	transition: all 0.20s linear;
+	-moz-transition: all 0.20s linear;
+	-webkit-transition: all 0.20s linear;
+	-o-transition: all 0.20s linear;	}
+
+.social:hover {
+	position: relative;
+	top: -2px;
+	transition: all 0.20s linear;
+	-moz-transition: all 0.20s linear;
+	-webkit-transition: all 0.20s linear;
+	-o-transition: all 0.20s linear;		
+}
+/* social icons text/shadow color */
+#extraContainer1 span.social a,
+#extraContainer2 span.social a,
+#sidebarContainer span.social a,
+span.social a {
+color: #797979;
+text-shadow: #fef7f3 0 1px 0;
+}
+
+#extraContainer1 span.social a:hover,
+#extraContainer2 span.social a:hover,
+#sidebarContainer span.social a:hover,
+span.social a:hover {
+color: #222;
+text-shadow: #fff 0 1px 13px;
+
+}
+
+/* fix IE */
+
+.ie9 aside span.social {
+    font-size: 0.93em;
+}

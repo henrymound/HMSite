@@ -1,0 +1,13 @@
+#navcontainer, #navcontainer a, #navcontainer ul ul a, #navcontainer ul ul ul a, #navcontainer ul ul ul ul a {
+	font-family: "Helvetica Neue", sans-serif;
+}
+#navcontainer a {
+	line-height: 42px;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+#navcontainer ul ul a {
+    line-height: 30px;
+	font-size: 13px;
+	letter-spacing: 1px;
+}

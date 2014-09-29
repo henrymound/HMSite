@@ -1,0 +1,19 @@
+#contentContainer #content {
+	padding: 0 !important;
+	width: 100%;
+}
+/* --------- */
+#footer {
+	margin-right: 8%;
+}
+#breadcrumbcontainer {
+	margin-left: 8%;
+}
+@media only screen and (max-width: 769px) {
+#footer {
+	margin-right: 0;
+}
+#breadcrumbcontainer {
+	margin-left: 0;
+}
+}

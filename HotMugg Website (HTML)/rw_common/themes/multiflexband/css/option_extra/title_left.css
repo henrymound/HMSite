@@ -1,0 +1,32 @@
+#pageHeader h1 {
+	text-align: left;
+	margin-left: 3%;
+}
+#pageHeader h2 {
+	text-align: left;
+	margin-left: 3%;
+}
+@media only screen and (max-width: 601px) {
+#pageHeader h1 {
+	  transition: all 0.55s linear !important;   
+	-moz-transition: all 0.55s linear !important; 
+	-webkit-transition: all 0.55s linear !important; 
+	-o-transition: all 0.55s linear !important;  
+    transition-delay: 0ms;
+    -webkit-transition-delay: 0ms;
+	-o-transition-delay: 0ms;
+	-moz-transition-delay: 0ms;
+}
+}
+@media only screen and (max-width: 480px) {
+#pageHeader h1 {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+#pageHeader h2 {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+}

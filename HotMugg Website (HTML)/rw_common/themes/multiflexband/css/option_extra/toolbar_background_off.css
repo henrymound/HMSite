@@ -1,0 +1,15 @@
+#topnav {
+	background-color: transparent;
+	background-image: none;
+}
+
+#topnav {
+   box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+
+#navcontainer {
+	background-color: transparent;
+	background-image: none;
+}

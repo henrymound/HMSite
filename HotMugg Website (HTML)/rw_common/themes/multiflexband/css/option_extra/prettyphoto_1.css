@@ -1,0 +1,6 @@
+/* background with image */
+
+div.pp_overlay {
+	background: transparent url(../../images/editable_images/prettyphoto_background.jpg) repeat center top;
+}
+

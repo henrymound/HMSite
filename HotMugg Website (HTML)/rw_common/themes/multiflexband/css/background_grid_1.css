@@ -1,0 +1,9 @@
+.bodyigrid {
+	background: url(../images/elements/dots1.png) repeat fixed;
+	position: fixed;
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}

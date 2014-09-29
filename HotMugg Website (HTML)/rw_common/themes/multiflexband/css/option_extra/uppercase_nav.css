@@ -1,0 +1,5 @@
+/* uppercase */
+
+#navcontainer a, #navcontainer2 a{
+	text-transform: uppercase;
+}

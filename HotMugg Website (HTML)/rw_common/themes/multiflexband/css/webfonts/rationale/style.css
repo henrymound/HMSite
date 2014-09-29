@@ -1,0 +1,117 @@
+/* PrettyPhoto title */
+.pp_description {
+	font-family: 'RationaleOneRegular', serif;
+}
+/* PrettyPhoto title */
+#pageHeader h1 {
+	letter-spacing: 1px;
+	font-family: 'RationaleOneRegular', serif;
+}
+#pageHeader h2 {
+	letter-spacing: 1px;
+	font-family: 'RationaleOneRegular', serif;
+}
+.rw-sitemap ul a {
+	font: 17px 'RationaleOneRegular', serif;
+	letter-spacing: 1px;
+}
+.rw-sitemap ul li li a, .rw-sitemap ul li li li a , .rw-sitemap ul li li li li a, .rw-sitemap ul li li li li li a   {
+	font: 15px 'RationaleOneRegular', serif;
+	letter-spacing: 1px;
+}
+.blog-entry-title a,
+.blog-archive-month,
+.blog-archive-month a,
+.filesharing-item-title a,
+.album-title,
+.movie-page-title,
+.photo-title,
+#sidebarContainer .sideHeader,
+.standout, blockquote,
+.standout, #sidebar blockquote,
+#viewingButton #text {
+	font-family: 'RationaleOneRegular', serif !important;
+	letter-spacing: 1px;
+}
+.album-title,
+.movie-page-title,
+.blog-entry-title,
+.blog-archive-month,
+.blog-archive-month a {
+	font-size: 23px;
+	line-height: 18px;
+}
+h1, h2, h3, h4, h5, h6 { font-family: 'RationaleOneRegular', serif !important;}
+h1 {}
+h2 {}
+h3 {}
+h4 {	letter-spacing: 1px;}
+h5 {	letter-spacing: 1px;}
+#viewingButton #text{
+	letter-spacing: 1px;
+	font-family: 'RationaleOneRegular', serif;
+}
+
+#navcontainer a{
+	letter-spacing: 1px;
+	line-height: 44px;
+	font-family: 'RationaleOneRegular', serif;
+}
+#navcontainer ul ul a {	font-size: 16px;
+	line-height: 32px;
+}
+#navcontainer2 a {
+	font-style: normal;
+	font-family: 'RationaleOneRegular', serif;
+}
+#navcontainer2 ul ul a {
+	letter-spacing: 1px;
+}
+/* ------------ */
+#navcontainer a, /* no bold CURRENT style*/
+#navcontainer #current,
+#navcontainer ul #current,
+#navcontainer ul ul #current,
+#navcontainer ul ul ul ul #current,
+#navcontainer ul ul ul ul ul #current,
+#navcontainer2 a, /* no bold CURRENT style*/
+#navcontainer2 #current,
+#navcontainer2 ul #current,
+#navcontainer2 ul ul #current,
+#navcontainer2 ul ul ul ul #current,
+#navcontainer2 ul ul ul ul ul #current {}
+
+#navcontainer .currentAncestor, /* no bold ANCESTOR*/
+#navcontainer ul .currentAncestor,
+#navcontainer ul ul .currentAncestor,
+#navcontainer ul ul ul .currentAncestor,
+#navcontainer ul ul ul ul .currentAncestor,
+#navcontainer2 .currentAncestor, /* no bold ANCESTOR*/
+#navcontainer2 ul .currentAncestor,
+#navcontainer2 ul ul .currentAncestor,
+#navcontainer2 ul ul ul .currentAncestor,
+#navcontainer2 ul ul ul ul .currentAncestor {
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active,
+h2 a:link, h2 a:visited, h2 a:hover, h2 a:active,
+h3 a:link, h3 a:visited, h3 a:hover, h3 a:active,
+h4 a:link, h4 a:visited, h4 a:hover, h4 a:active,
+h5 a:link, h5 a:visited, h5 a:hover, h5 a:active,
+h6 a:link, h6 a:visited, h6 a:hover, h6 a:active,
+h7 a:link, h7 a:visited, h7 a:hover, h7 a:active {
+	 font-family: 'RationaleOneRegular', serif !important;
+}
+
+#blog-archives, ul.blog-tag-cloud, #blog-categories,
+#blog-archives a, ul.blog-tag-cloud a, #blog-categories a{
+	font-family: 'RationaleOneRegular', serif;
+}
+
+.share-button, .share-button a, .share-button:before{
+	font-family: 'RationaleOneRegular', serif;
+}
+
+/* ----- different for any webfont-------- */

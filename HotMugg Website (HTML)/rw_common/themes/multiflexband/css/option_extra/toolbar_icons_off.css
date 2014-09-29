@@ -1,0 +1,12 @@
+#navcontainer a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#navcontainer a { 	background-image: none; }
+#navcontainer>ul>li:last-child>a {	background-image: none;}
+#navcontainer a:hover  {	background-image: none;}
+
+#navcontainer ul:before, #navcontainer ul:after {
+	display: none;
+}

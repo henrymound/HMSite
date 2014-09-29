@@ -1,0 +1,292 @@
+/* @group line */
+
+#blog-archives,
+#blog-categories,
+ul.blog-tag-cloud,
+.blog-entry-title a {
+border-top-color: #773B00;
+}
+
+.rw-sitemap ul li,
+.filesharing-item,
+.form-input-field   {
+border-color: #743A00;
+}
+
+#contentBand{
+border-top-color: #343434;
+}
+
+
+#contentBand{
+border-bottom-color: #343434;
+}
+/* @end */
+
+/* @group Border */
+
+#container {
+border-top-color: %colour_line%;	
+border-left-color: %colour_line%;	
+border-right-color: %colour_line%;	
+border-bottom-color: %colour_line%;	
+}
+
+#extraContainer1 {
+border-top-color: %colour_line%;
+}
+
+/* @end */
+
+#contentContainer {
+	background-color: #804000;
+}
+
+#contentBand{
+	background-color: #804000;
+}
+
+/* @group Text Colour Title and Slogan */
+#pageHeader h1, #pageHeader h2 {
+	color: #FFFFFF;
+}
+/* @end */
+
+/* @group extracontent 1 and 2 */
+#extraContainer1box, #extraContainer2  {
+	background-color: #A90101;
+}
+
+#extraContainer1 .standout, blockquote,
+#extraContainer1 .standout, #sidebar blockquote,
+#extraContainer2 .standout, blockquote,
+#extraContainer2 .standout, #sidebar blockquote  {
+	color: #636363;
+}
+
+#extraContainer1, #extraContainer2, 
+#extraContainer1 h1, #extraContainer1 h2, #extraContainer1 h3, #extraContainer1 h4, #extraContainer1 h5, #extraContainer1 h6, 
+#extraContainer2 h1, #extraContainer2 h2, #extraContainer2 h3, #extraContainer2 h4, #extraContainer2 h5, #extraContainer2 h6 { 
+	color: #636363;
+}
+
+#extraContainer1 a, #extraContainer2 a { /* Extracontent links normal */
+	color: #A0A0A0;
+}
+#extraContainer1 a:hover,
+#extraContainer1 a:active,
+#extraContainer2 a:hover,
+#extraContainer2 a:active { /* Extracontent links over */
+	color: #FFFFFF;
+}
+/* @end */
+
+/* @group extracontent 3 and sidebar  */
+#extraContainer3, #sidebarContainer, #footer   {
+	background-color: #343434;
+}
+
+#extraContainer3 .standout, #sidebar blockquote,
+#sidebarContainer .standout, blockquote,
+#sidebarContainer .standout, #sidebar blockquote   {
+	color: #626262;
+}
+
+#extraContainer3,
+#extraContainer3 h1, #extraContainer3 h2, #extraContainer3 h3, #extraContainer3 h4, #extraContainer3 h5, #extraContainer3 h6,
+
+#sidebarContainer h1, #sidebarContainer h2, #sidebarContainer h3, #sidebarContainer h4, #sidebarContainer h5, #sidebarContainer h6,
+
+#extraContainer3 #sidebarContainer #sidebar,
+#extraContainer3 #sidebarContainer,
+#sidebarContainer .sideHeader,
+#sidebarContainer #sidebar,
+#sidebarContainer,
+#footer p,
+#breadcrumbcontainer a,
+#breadcrumbcontainer a:active,
+#breadcrumbcontainer a:visited  { /* Extracontent text */
+	color: #626262;
+}
+
+#breadcrumbcontainer li  { /* ARROWS */
+	color: #626262;
+}
+
+#extraContainer3 a, #sidebarContainer a, #footer p a { /* Extracontent links normal */
+	color: #D1D1D1;
+}
+
+#extraContainer3 a:hover,
+#extraContainer3 a:active,
+#sidebarContainer a:hover,
+#sidebarContainer a:active,
+#footer p a:hover,
+#footer p a:active,
+#breadcrumbcontainer a:hover, 
+#breadcrumbcontainer .current{ /* Extracontent links over */
+	color: #FFFFFF;
+}
+/* @end */
+
+/* @group extracontent 4 TOP */
+#extraContainer4box { /* TOP BOX -  BACKGROWND */
+background-color: #A90101;
+}
+
+#extraContainer4 { /* Extracontent text */
+color: #636363;
+}
+
+#extraContainer4 a { /* Extracontent links normal */
+color: %colour_extraContainer4_links%;
+}
+
+#extraContainer4 a:hover,
+#extraContainer4 a:active { /* Extracontent links over */
+	color: #FFFFFF;
+}
+
+#drop.boxopened:after, #drop:after {
+	color: #FFFFFF;
+}
+
+#drop {
+background-color: #343434;
+}
+
+/* borders only */
+#drop:before {
+border-bottom-color: #393939;	
+border-top-color: #2E2E2E;	
+border-left-color: #2E2E2E;	
+border-right-color: #393939;	
+}
+
+#drop:before {
+background-color: #292929;
+}
+
+#drop:hover:before {
+background-color: #242424;
+}
+
+#drop:before{
+	color: #D1D1D1;
+}
+#drop:hover:before, #drop.boxopened:hover:active:before
+#drop:active:before, #drop.boxopened:active:before {
+	color: #FFFFFF;
+}
+/* @end */
+
+/* @group Toolbar */
+
+
+
+#topnav {
+background-color: #343434;
+}
+
+#navcontainer ul:before, #navcontainer ul:after {
+	color: #D1D1D1;
+}
+
+#navcontainer a:link,
+#navcontainer a:visited {
+	color: #D1D1D1;
+}
+
+#navcontainer a:hover,
+#navcontainer #current,
+#navcontainer .current,
+#navcontainer ul #current,
+#navcontainer ul .current,
+#navcontainer a:active,
+#navcontainer .currentAncestor,
+#navcontainer ul #currentAncestor,
+#navcontainer ul .currentAncestor,
+#navcontainer #currentAncestor {
+	color: #FFFFFF;
+}
+/* @end */
+
+/* @group Link   NORMAL */
+a:link {
+	color: #5F8BB6;
+}
+/* @end */
+/* @group Link   ACTIVE ecc */
+/* movie photos links */
+.thumbnail-frame:hover,
+.movie-thumbnail-frame:hover   {
+	color: #6EA3D6;
+}
+/* links */
+a:hover, a:active   {
+	color: #6EA3D6;
+}
+.blog-archive-link-enabled,
+.blog-category-link-enabled,
+.blog-entry-permalink a:visited   {
+	color: #6EA3D6;
+}
+/* links visited */
+a:visited   {
+	color: #557DA3;
+}
+/* @end */
+/* @group CONTENT  */
+
+body  {
+	background-color: #860101;
+}
+
+/* Photo single page */
+.photo-frame, .exif-data, .photo-navigation {
+border-bottom-color: #CCCCCC;	
+border-color: #CCCCCC;	
+}
+/* Photo single page end */
+.album-title,
+.movie-page-title,
+.filesharing-item-title,
+.standout, blockquote  {
+	color: #CCCCCC;
+}
+#contentContainer{
+	color: #FFFFFF;
+}
+/* Borders Below */
+.album-title,
+.movie-page-title {
+	border-bottom-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+}
+/* @end */
+
+/* @group Awesome */
+/*
+#navcontainer a [class^="fa fa-"]:before,
+#navcontainer a [class*=" fa fa-"]:before {
+	color: %colour_toolbar_links * 0.8%;
+}
+*/
+/* 
+#navcontainer a:hover [class^="fa fa-"]:before,
+#navcontainer #current [class^="fa fa-"]:before,
+#navcontainer a:active [class^="fa fa-"]:before,
+
+#navcontainer a:hover [class*=" fa fa-"]:before,
+#navcontainer #current [class*=" fa fa-"]:before,
+#navcontainer a:active [class*=" fa fa-"]:before {
+	color: %colour_toolbar_highlight * 0.8%;
+}
+#navcontainer .current [class^="fa fa-"]:before,
+#navcontainer .currentAncestor [class^="fa fa-"]:before,
+#navcontainer .current [class*=" fa fa-"]:before,
+#navcontainer .currentAncestor [class*=" fa fa-"]:before {
+	color: %colour_toolbar_highlight * 0.8%;
+}
+*/
+/* @end */

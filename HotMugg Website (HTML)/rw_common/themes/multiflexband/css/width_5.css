@@ -1,0 +1,57 @@
+#container {
+	width: 100%;
+	max-width: 100%;
+}
+#contentBand {
+	width: 100%;
+	max-width: 100%;
+}
+#pageHeader {
+	max-width: 1070px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contentContainer {
+	max-width: 1070px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#extraContainer1box {
+	max-width: 1070px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#sidebarContainer{
+	max-width: 1070px; /* max-width: 1020px; */
+	margin-right: auto;
+	margin-left: auto;
+}
+@media only screen and (max-width: 1170px) {
+#container { /* if border is active */
+	border-right-style: none !important;
+	border-left-style: none !important;
+	border-bottom-style: none !important;
+}
+#topnav {
+   border-radius:0px !important;
+  -webkit-border-radius:0px !important;
+  -moz-border-radius:0px !important;
+}
+}
+@media only screen and (max-width: 1070px) {
+/* Corners Off */
+#contentContainer, #sidebarContainer, #footer, #extraContainer1, #extraContainer1box, #extraContainer2, #extraContainer3, #navcontainer2 {
+  border-radius:0px !important;
+  -webkit-border-radius:0px !important;
+  -moz-border-radius:0px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+#container { /* if border is active */
+	border-right-style: none !important;
+	border-left-style: none !important;
+	border-bottom-style: none !important;
+}
+}
+
+#extraContainer4box {	max-width: 1070px; }

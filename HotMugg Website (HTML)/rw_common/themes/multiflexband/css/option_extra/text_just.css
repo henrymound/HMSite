@@ -1,0 +1,15 @@
+.blog-entry {
+	text-align: justify;
+}
+
+#contentContainer #content {
+    text-align: justify;
+}
+
+#sidebarContainer #sidebar {
+	text-align: justify;
+}
+
+#extraContainer1, #extraContainer2, #extraContainer3 {
+	text-align: justify;
+}

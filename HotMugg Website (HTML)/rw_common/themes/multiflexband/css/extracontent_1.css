@@ -1,0 +1,15 @@
+#extraContainer1box {display: block !important;}
+#extraContainer1 {display: block !important;}
+#container {top: 0;}
+#container {
+	border-top-style: none !important;
+	border-top-width: 0;
+}
+#navcontainer {
+ border-top-left-radius:0px !important;
+  -webkit-border-top-left-radius:0px !important;
+  -moz-border-radius-topleft:0px !important;
+  border-top-right-radius:0px !important;
+  -webkit-border-top-right-radius:0px !important;
+  -moz-border-radius-topright:0px !important;
+}
