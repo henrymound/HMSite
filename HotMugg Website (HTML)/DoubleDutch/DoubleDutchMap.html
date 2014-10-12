@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=.05, user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
+    <title>Simple markers</title>
     <style>
       html, body, #map-canvas {
         height: 100%;
@@ -13,28 +14,45 @@
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script>
-	var map;
 function initialize() {
+  var myLatlng = new google.maps.LatLng(40.805866, -73.954048);
   var mapOptions = {
-    zoom: 8,
-    center: new google.maps.LatLng(40.805866, -73.954048),
-	scrollwheel: false      
-  };
-  
-    map.addMarker({
-        lat: 40.805866,
-        lng: -73.954048,
-        title: 'Double Dutch Espresso',
-        infoWindow: {
-          content: '<p>A great HotMugg location</p>'
-        }
-      });
-	  
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-	  
-	
-	  
+    zoom: 17,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h1 id="firstHeading" class="firstHeading">Double Dutch Espresso</h1>'+
+      '<div id="bodyContent">'+
+      '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+      'sandstone rock formation in the southern part of the '+
+      '<p>Attribution: Uluru, <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+      'http://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+      '(last visited June 22, 2009).</p>'+
+      '</div>'+
+      '</div>';
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Double Dutch Espresso'
+  });
+
+
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.open(map,marker);
+  });
+
+
+  var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  });
+
+    infowindow.open(map,marker);
+
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
@@ -45,4 +63,5 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <div id="map-canvas"></div>
   </body>
 </html>
+
 
