@@ -25,9 +25,11 @@ function initialize() {
   var contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
-      '<h1 id="firstHeading" class="firstHeading"><a href="www.google.com">Double Dutch Espresso</a></h1>'+
+      '<h2 id="firstHeading" class="firstHeading"><a href="www.google.com">Double Dutch Espresso</a></h2>'+
       '<div id="bodyContent">'+
-      '<p>Good. Simple. Coffee</p>'+
+      '<p>Good. Simple. Coffee<p></p>'+
+	  ' '+
+	  'Double Dutch is a specialty coffee house located in South Harlem, at 2194 Frederick Douglass Blvd. We serve coffee and pastries - more to come!'
       '</div>'+
       '</div>';
 
@@ -58,6 +60,27 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <body>
     <div id="map-canvas"></div>
   </body>
+  
+  </style>
+
+<style type="text/css">
+.tftable {font-size:12px;color:#ffffff;width:100%;border-width: 1px;border-color: #2e2e2e;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#2e2e2e;border-width: 1px;padding: 8px;border-style: solid;border-color: #2e2e2e;text-align:left;}
+.tftable tr {background-color:#4d4d4d;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #2e2e2e;}
+.tftable tr:hover {background-color:#2e2e2e;}
+
+a:link {
+  color: #7b0001;
+  background-color: transparent;
+}
+
+a:hover {
+  color: black;
+}
+
+</style>
+  
 </html>
 
 
