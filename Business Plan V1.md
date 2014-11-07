@@ -32,9 +32,10 @@ So far, our website is well on the way to completion with locations across New Y
 
 <h3>Our intentions and expenses</h3>
 ---
+We decided to set our project goal as $1000 because this will allow us to purchase a minimum order of financially viable project rewards. About 40% of the money raised will go back out to the backers in the form of subscriptions to Bean of the Month, and HotMugg merchandise. The money left over will be put into purchasing web hosting for the website as well as our database of locations. The money will also go towards: application development on Android and iOS platforms (more software platforms will follow), adding more HotMugg locations, and website development and maintenance.  
 
 <h3>Why this project deserves support</h3>
-----
+---
 
 Supporting local businesses instead of chains is a noble cause and one we believe in.  Firstly, on an economic level, it means that the money we spend on a cup of coffee stays local with the owner of the shop instead of going to executives and corporate headquarters, often located in other cities or even countries.  Secondly, it maintains the individual fabric of local neighborhoods and communities, and thirdly, it provides opportunities for entrepreneurs to found their own unique business and enables them to compete with corporations
 
