@@ -8,57 +8,57 @@
 			<key>Dictionary</key>
 			<dict>
 				<key>BrowserTitle</key>
-				<string>About | HotMugg</string>
+				<string>Suggest a Location | HotMugg</string>
 				<key>ID</key>
-				<string>page0</string>
+				<string>page1</string>
 				<key>MostRecentlySelectedStyleName</key>
-				<string>Custom Style</string>
+				<string>Theme Currently Used</string>
 				<key>PageTitle</key>
-				<string>About</string>
+				<string>Suggest</string>
 				<key>PluginClassName</key>
-				<string>RWHTMLPlugin</string>
+				<string>RWContactFormPlugin</string>
 				<key>PluginMetadata</key>
 				<dict>
 					<key>Author</key>
 					<string>Realmac Software</string>
 					<key>Name</key>
-					<string>HTML Code</string>
+					<string>Contact Form</string>
 				</dict>
 				<key>PublishingManifest</key>
 				<dict>
 					<key>CreationDate</key>
-					<date>2014-12-11T03:42:01Z</date>
+					<date>2014-12-11T03:42:02Z</date>
 					<key>DigestAlgorithm</key>
 					<string>MD5</string>
 					<key>DocumentGUID</key>
 					<string>14E41B04-FA35-442D-9A21-8EC2BE91AF45</string>
 					<key>PageDigests</key>
 					<dict>
-						<key>index.html</key>
+						<key>files/mailer.php</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							bHjqWBOkocP02HPNoqIG
-							KQ==
+							J2noxHO6yVrH8sPIGork
+							xA==
 							</data>
 							<key>Size</key>
-							<integer>16122</integer>
+							<integer>9244</integer>
 						</dict>
-						<key>rw_common/version.txt</key>
+						<key>index.php</key>
 						<dict>
 							<key>Digest</key>
 							<data>
-							N+zSdghICqNWmlEaY4yn
-							Tw==
+							2S5TBQyWS9J2ghuD8rWN
+							yg==
 							</data>
 							<key>Size</key>
-							<integer>4</integer>
+							<integer>13789</integer>
 						</dict>
 					</dict>
 					<key>PageID</key>
-					<string>page0</string>
+					<string>page1</string>
 					<key>SiteRoot</key>
-					<string></string>
+					<string>contact-form</string>
 					<key>Version</key>
 					<integer>3</integer>
 				</dict>
