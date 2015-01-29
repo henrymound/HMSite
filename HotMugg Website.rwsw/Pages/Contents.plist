@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>HomePage</key>
+				<string>01-Search-0026-Discover-Coffee-Shops</string>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>01-Search-0026-Discover-Coffee-Shops</string>
+				<string>02-HotMugg-Locator-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>03-Double-Dutch-Espresso-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>04-12-Corners-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>05-Lenox-Coffee-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>06-Everyman-Espresso---East-Village-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>07-Everyman-Espresso---Soho-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>08-Kuro-Kuma-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>09-The-Chipped-Cup-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>10-Madman-Espresso---Garment-District-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>11-Madman-Espresso---East-Village-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>12-Bluebird-Coffee-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>13-Perk-Kafe-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>14-Mountain-Province-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>15-B00DA00D0IN-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>16-Variety-Caf00E9---Greenpoint-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>17-Variety-Caf00E9---East-Williamsburg-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>18-Abra00E7o-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>19-Darling-Coffee-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+				<string>20-Little-Collins-007C-HotMugg-0028Menus002C-Photos002C-Information0029003A-Independent-Coffee-Shops-for-Independent-People</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Pages</string>
+</dict>
+</plist>
