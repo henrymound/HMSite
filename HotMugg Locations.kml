@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>HotMugg Locations</name>
+		<description><![CDATA[A map with all of the registered HotMugg locations.
+]]></description>
+		<NetworkLink>
+			<name>HotMugg Locations</name>
+			<Link>
+				<href>http://mapsengine.google.com/map/kml?mid=zO-06GR_4U6Y.ka1VflR6VRIc</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+</kml>

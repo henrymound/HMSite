@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locations>
+	
+	<location>
+		<name>Double Dutch Espresso - Harlem</name>
+		<address>
+			<stringAddress>2194 Frederick Douglass Blvd, New York, NY 10026</stringAddress>
+			<zip>10026</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link>http://www.hotmugg.com/DoubleDutchHarlem.html</link>
+		<description></description>
+		<phone>6464298834</phone>
+		<lat>40.805866</lat>
+		<long>-73.954048</long>
+	</location>
+		
+	<location>
+		<name>DTUT Cafe</name>
+		<address>
+			<stringAddress>1744 2nd Avenue, New York, NY 10128</stringAddress>
+			<zip>10128</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description>Coffee shop by day, bar by night</description>
+		<phone>2124106449</phone>
+		<lat>40.780788</lat>
+		<long>-73.949272</long>
+	</location>
+		
+	<location>
+		<name>12 Corners</name>
+		<address>
+			<stringAddress>155 East Broadway, New York, NY 10002</stringAddress>
+			<zip>10002</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description>Cup of coffee &#42; bagels</description>
+		<phone>6467172849</phone>
+		<lat>40.713768</lat>
+		<long>-73.990603</long>
+	</location>
+	
+	<location>
+		<name>Box Kite Coffee</name>
+		<address>
+			<stringAddress>115 Saint Marks Place, New York, NY 10009</stringAddress>
+			<zip>10009</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description>Modern nook for coffee &#38; gourmet bites</description>
+		<phone>2125748201</phone>
+		<lat>40.72704</lat>
+		<long>-73.98364</long>
+	</location>
+	
+	<location>
+		<name>Mountain Province</name>
+		<address>
+			<stringAddress>1 Meserole St, Brooklyn, NY 11211</stringAddress>
+			<zip>11211</zip>
+			<city>Brooklyn</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description></description>
+		<phone>7183877030</phone>
+		<lat>40.707591</lat>
+		<long>-73.950117</long>
+	</location>
+	
+	<location>
+		<name>Crema BK</name>
+		<address>
+			<stringAddress>182 Driggs Avenue, Brooklyn, NY 11222</stringAddress>
+			<zip>11222</zip>
+			<city>Brooklyn</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description></description>
+		<phone>3474575363</phone>
+		<lat>40.723104</lat>
+		<long>-73.945775</long>
+	</location>
+	
+	<location>
+		<name>Southside Coffee</name>
+		<address>
+			<stringAddress>652 6th Avenue, Brooklyn, NY 11215</stringAddress>
+			<zip>11215</zip>
+			<city>Brooklyn</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description>Counter culture cinnamon rolls</description>
+		<phone>3475990887</phone>
+		<lat>40.661172</lat>
+		<long>-73.990318</long>
+	</location>
+	
+	<location>
+		<name>The Chipped Cup</name>
+		<address>
+			<stringAddress>3610 Broadway, New York, NY 10031</stringAddress>
+			<zip>10031</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description></description>
+		<phone>2123688881</phone>
+		<lat>40.828601</lat>
+		<long>-73.948525</long>
+	</location>
+	
+	<location>
+		<name>Zanny’s Cafe</name>
+		<address>
+			<stringAddress>975 Columbus Avenue, New York, NY 10025</stringAddress>
+			<zip>10025</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link></link>
+		<description>Coffee &#38; tea by central park</description>
+		<phone>2123166849</phone>
+		<lat>40.800371</lat>
+		<long>-73.961803</long>
+	</location>
+	
+</locations>

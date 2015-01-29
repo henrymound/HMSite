@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations>
+	
+	<location>
+		<name>Double Dutch Espresso - Harlem</name>
+		<address>
+			<stringAddress>2194 Frederick Douglass Blvd, New York, NY 10026</stringAddress>
+			<zip>10026</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link>http://www.hotmugg.com/DoubleDutchHarlem.html</link>
+		<description/>
+		<phone>6464298834</phone>
+		<lat>40.805866</lat>
+		<long>-73.954048</long>
+	</location>
+    
+	<location>
+		<name>12 Corners</name>
+		<address>
+			<stringAddress>155 East Broadway, New York, NY 10002</stringAddress>
+			<zip>10002</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+		<link>http://www.hotmugg.com/12Corners.html</link>
+		<description>Cup of coffee * bagels</description>
+		<phone>6467172849</phone>
+		<lat>40.713768</lat>
+		<long>-73.990603</long>
+	</location>
+	
+	<location>
+		<name>Everyman Espresso - East Village</name>
+		<address>
+			<stringAddress>136 East 13th Street, New York, NY 10003</stringAddress>
+			<zip>10003</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+        <longDescription>
+            Everyman Espresso is dedicated to perfecting the craft of coffee while building a community. Our products are chosen thoughtfully and we never compromise on quality.
+        </longDescription>
+		<link>http://www.hotmugg.com/EverymanEspressoEastVillage.html</link>
+		<description>Direct-trade coffee &amp; espresso bar</description>
+		<phone>2125330524</phone>
+		<lat>40.7327487</lat>
+		<long>-73.9882663</long>
+	</location>
+	
+	<location>
+		<name>Everyman Espresso - Soho</name>
+		<address>
+			<stringAddress>301 West Broadway, New York, NY 10013</stringAddress>
+			<zip>10013</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+        <longDescription>
+            Everyman Espresso is dedicated to perfecting the craft of coffee while building a community. Our products are chosen thoughtfully and we never compromise on quality.
+        </longDescription>
+		<link>http://www.hotmugg.com/EverymanEspressoSoho.html</link>
+		<description>Cozy coffee shop with direct-trade beans</description>
+		<phone>2125330524</phone>
+		<lat>40.7214974</lat>
+		<long>-74.0046959</long>
+	</location>
+	
+	<location>
+		<name>Lenox Coffee</name>
+		<address>
+			<stringAddress>60 West 129th Street, New York, NY 10027</stringAddress>
+			<zip>10027</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+        <longDescription>
+            Lenox Coffee is a specialty coffee house located in central Harlem, at 60 West 129th Street between 5th Avenue and Lenox Avenue. We serve coffee &amp; pastries as well as wine and beer.
+        </longDescription>
+		<link>http://www.hotmugg.com/LenoxCoffee.html</link>
+		<description>Specialty coffee &amp; modern rustic decor</description>
+		<phone>6468337839</phone>
+		<lat>40.81008</lat>
+		<long>-73.943319</long>
+	</location>
+	
+	<location>
+		<name>Kuro Kuma</name>
+		<address>
+			<stringAddress>121 La Salle Street, New York, NY 10027</stringAddress>
+			<zip>10027</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+        <longDescription>
+            Great coffee in a beautiful space for everyone.
+        </longDescription>
+		<link>http://www.hotmugg.com/KuroKuma.html</link>
+		<description/>
+		<phone>3475773177</phone>
+		<lat>40.814061</lat>
+		<long>-73.960026</long>
+	</location>
+	
+	<location>
+		<name>The Chipped Cup</name>
+		<address>
+			<stringAddress>3610 Broadway New York NY, 10031</stringAddress>
+			<zip>10031</zip>
+			<city>New York City</city>
+			<state>NY</state>
+		</address>
+        <longDescription>
+            Taking inspiration from the Victorian Tea and Coffee Houses of old, the Chipped Cup aims to be a place where the diverse population of Hamilton Heights can come mingle over one of our delicious Espresso Bar drinks or sit quietly plugged in using our free wi-fi to get work done. If sunshine is what you crave: step out into our back garden patio, a tribute to the Victorians love of plants and flowers.
+        </longDescription>
+		<link>http://www.hotmugg.com/TheChippedCup.html</link>
+		<description/>
+		<phone>2123688881</phone>
+		<lat>40.8286011</lat>
+		<long>-73.9485248</long>
+    </location>
+    
+    <location>
+        <name>Madman Espresso - Garment District</name>
+        <address>
+            <stringAddress>234 W 35th Street, New York, NY 10123</stringAddress>
+            <zip>10123</zip>
+            <city>New York City</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+            Madman Espresso is a friendlier barista, a bigger smile and a better coffee. The interior is rustic-chic, the light is perfect, the music cool. You are in a special destination and yet you are at home.
+        </longDescription>
+        <link>http://www.hotmugg.com/MadmanEspressoGarmentDistrict.html</link>
+		<description/>
+        <phone>2125647505</phone>
+        <lat>40.752169</lat>
+        <long>-73.991516</long>
+    </location>
+    
+    <location>
+        <name>Madman Espresso - East Village</name>
+        <address>
+            <stringAddress>319 East 14th Street, New York, NY 10003</stringAddress>
+            <zip>10003</zip>
+            <city>New York City</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+            Madman Espresso is a friendlier barista, a bigger smile and a better coffee. The interior is rustic-chic, the light is perfect, the music cool. You are in a special destination and yet you are at home.
+        </longDescription>
+        <link>http://www.hotmugg.com/MadmanEspressoEastVillage.html</link>
+		<description>Tiny minimalist java joint</description>
+        <phone>2125052233</phone>
+        <lat>40.7313492</lat>
+        <long>-73.982989</long>
+    </location>
+	
+    <location>
+        <name>Bluebird Coffee</name>
+        <address>
+            <stringAddress>72 E 1st St New York, NY 10002</stringAddress>
+            <zip>10002</zip>
+            <city>New York City</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+            A lovley little coffee bar on the lower east side of Manhattan.
+        </longDescription>
+        <link>http://www.hotmugg.com/BluebirdCoffee.html</link>
+		<description>Gourmet coffee and baked goods</description>
+        <phone>2122601879</phone>
+        <lat>40.723514</lat>
+        <long>-73.988713</long>
+    </location>
+	
+    <location>
+        <name>Perk Kafe</name>
+        <address>
+            <stringAddress>162 E 37 Street (between 3rd and Lex), New York, 10016</stringAddress>
+            <zip>10016</zip>
+            <city>New York City</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+            Perk Kafe is a specialty coffee shop in Murray Hill. We feature Stumptown Coffee Roasters, delicious pastries, fine teas and other specialty beverages.
+        </longDescription>
+        <link>http://www.hotmugg.com/PerkKafe.html</link>
+		<description>Perk Kafe - Respect the Coffee Gods</description>
+        <phone>2126867375</phone>
+        <lat>40.747713</lat>
+        <long>-73.977244</long>
+    </location>
+	
+    <location>
+        <name>Mountain Province</name>
+        <address>
+            <stringAddress>1 Meserole Street, Brooklyn, NY 11206</stringAddress>
+            <zip>11206</zip>
+            <city>Brooklyn</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+            Full-service espresso bar, featuring single-origin organic Philippine coffee and tasty Filipino-inspired baked goods both familiar and new.
+        </longDescription>
+        <link>http://www.hotmugg.com/MountainProvince.html</link>
+		<description></description>
+        <phone>7183877030</phone>
+        <lat>40.707591</lat>
+        <long>-73.9485291</long>
+    </location>
+    
+    <location>
+        <name>BUDIN</name>
+        <address>
+            <stringAddress>114 Greenpoint Avenue, Brooklyn, NY 11222</stringAddress>
+            <zip>11222</zip>
+            <city>Brooklyn</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+            BÚÐIN is a coffee shop, beer bar, and design experience in New York. We hand select the best Nordic goods for each part of your life. 
+        </longDescription>
+        <link>http://www.hotmugg.com/Budin.html</link>
+		<description>Nordic-inspired coffee bar and design shop</description>
+        <phone>3478449639</phone>
+        <lat>40.729802</lat>
+        <long>-73.956215</long>
+    </location>
+    
+    <location>
+        <name>Variety Café</name>
+        <address>
+            <stringAddress>145 Driggs Ave, Brooklyn, NY 11222</stringAddress>
+            <zip>11222</zip>
+            <city>Brooklyn</city>
+            <state>NY</state>
+        </address>
+        <longDescription></longDescription>
+        <link>http://www.hotmugg.com/VarietyCafeGreenpoint.html</link>
+		<description></description>
+        <phone>3476893790</phone>
+        <lat>40.722893</lat>
+        <long>-73.944291</long>
+    </location>
+    
+    <location>
+        <name>Variety Café</name>
+        <address>
+            <stringAddress>368 Graham Ave, Brooklyn, NY 11211</stringAddress>
+            <zip>11222</zip>
+            <city>Brooklyn</city>
+            <state>NY</state>
+        </address>
+        <longDescription>
+        </longDescription>
+        <link>http://www.hotmugg.com/VarietyEastWilliamsburg.html</link>
+		<description></description>
+        <phone>3475992351</phone>
+        <lat>40.715407</lat>
+        <long>-73.944341</long>
+    </location>
+    
+    <location>
+        <name>Abraço</name>
+        <address>
+            <stringAddress>86 E 7th St, New York, NY 10003</stringAddress>
+            <zip>10003</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>coffee roaster and espresso bar with house made semi-sweets and savories
+        </longDescription>
+        <link>http://www.hotmugg.com/Abraco.html</link>
+		<description></description>
+        <phone>2123889731 </phone>
+        <lat>40.727048</lat>
+        <long>-73.986169</long>
+    </location>
+     
+    <location>
+        <name>Darling Coffee</name>
+        <address>
+            <stringAddress>4961 Broadway, New York, NY 10034</stringAddress>
+            <zip>10034</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Sunny coffeehouse and cafe with small-batch coffees, simple sandwiches and house-baked sweets.
+        </longDescription>
+        <link>http://www.hotmugg.com/DarlingCoffee.html</link>
+		<description></description>
+        <phone>2123040181</phone>
+        <lat>40.868157</lat>
+        <long>-73.920556</long>
+    </location>
+     
+    <location>
+        <name>Little Collins</name>
+        <address>
+            <stringAddress>667 Lexington Ave New York, NY 10022</stringAddress>
+            <zip>10022</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Little Collins pays homage to the spirit of the bustling street in Melbourne, Australia, after which it is named.
+        </longDescription>
+        <link>http://www.hotmugg.com/LittleCollins.html</link>
+		<description></description>
+        <phone>2123081969</phone>
+        <lat>40.759875</lat>
+        <long>-73.969673</long>
+    </location>
+     
+    
+    
+	
+</locations>

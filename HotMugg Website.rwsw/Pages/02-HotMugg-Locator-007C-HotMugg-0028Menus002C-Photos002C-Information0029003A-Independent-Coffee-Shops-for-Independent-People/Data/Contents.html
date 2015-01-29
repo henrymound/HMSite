@@ -1,0 +1,253 @@
+ <?php
+
+    //Downloads XML data from website
+    //Used to download database and coord convert
+    function download_page($path){
+	   $ch = curl_init();
+	   curl_setopt($ch, CURLOPT_URL,$path);
+	   curl_setopt($ch, CURLOPT_FAILONERROR,1);
+	   curl_setopt($ch, CURLOPT_FOLLOWLOCATION,1);
+	   curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
+	   curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+	   $retValue = curl_exec($ch);			 
+	   curl_close($ch);
+	   return $retValue;
+    }
+
+    $databaseXML = download_page("http://www.HotMugg.com/data.xml");//database download url
+    // Turn off all error reporting
+    //error_reporting(0);
+
+    //Takes string from html search form
+    $searchText = $_POST["searchText"];
+    $enteredRadius = $_POST["searchRadius"];
+    //Loads XML data from string
+    $xml = simplexml_load_string($databaseXML) or die("Error retrieving HotMugg locations.");
+    $searchRadius = 5.0;//measured in miles
+    if($enteredRadius != 0){
+		$searchRadius = $enteredRadius;
+	}
+    $preciseDistance = 0.0;//measured in miles to 6 decimals
+    $roundedDistance = 0.0;//measured in miles to 2 decimals
+    $Lat = 0.0;
+    $Lon = 0.0;
+    
+    //Converts to GPS coordinates
+    $Address = urlencode($searchText);
+    //coordinates download url
+    $coordXML = download_page("http://maps.googleapis.com/maps/api/geocode/xml?address=".$Address."&sensor=true");
+    $xmlURL = simplexml_load_string($coordXML) or die("Error retrieving GPS data.");
+    $status = $xmlURL->status;
+    
+    if ($status=="OK") {
+        $Lat = (float)$xmlURL->result->geometry->location->lat;
+        $Lon = (float)$xmlURL->result->geometry->location->lng;
+        $LatLng = "$Lat,$Lon";
+    }
+
+    //array to hold distances
+    $coffeeshopsArray = new ArrayObject();
+    $coffeeshopsArrayWithinDistance = new ArrayObject();
+    foreach ($xml->location as $location){
+        $preciseDistance = distance($Lat, $Lon, (float)$location->lat, (float)$location->long, "M");
+        $roundedDistance = round($preciseDistance, 2, PHP_ROUND_HALF_UP);
+        
+        $tempCoffeeshop = new coffeeshop();
+        //set coffeeshop variables
+        $tempCoffeeshop->setName($location->name);
+        $tempCoffeeshop->setAddress($location->address->stringAddress);
+        $tempCoffeeshop->setZip($location->address->zip);
+        $tempCoffeeshop->setCity($location->address->city);
+        $tempCoffeeshop->setState($location->address->state);
+        $tempCoffeeshop->setLink($location->link);
+        $tempCoffeeshop->setDescription($location->description);
+        $tempCoffeeshop->setPhone($location->phone);
+        $tempCoffeeshop->setLat($location->lat);
+        $tempCoffeeshop->setLong($location->long);
+        $tempCoffeeshop->setDistance($roundedDistance);
+        $tempCoffeeshop->setWithinDistance(false);
+        
+        $coffeeshopsArray->append($tempCoffeeshop);
+        
+        if ($preciseDistance <= $searchRadius){
+            $coffeeshopsArray[$coffeeshopsArray->count() - 1]->setWithinDistance(true);
+            $coffeeshopsArray[$coffeeshopsArray->count() - 1]->setDistance($roundedDistance);
+            
+            $coffeeshopsArrayWithinDistance->append($coffeeshopsArray[$coffeeshopsArray->count() - 1]);
+        }
+    }
+
+if($coffeeshopsArrayWithinDistance->count() == 0){
+        echo nl2br("Sorry, we couldn't find any HotMugg locations within ".$searchRadius." mile(s) of <b>$searchText</b>.\r\n Currently, all ".$coffeeshopsArray->count()." HotMugg coffeeshops are all located in New York City.\r\n");
+    }else if($coffeeshopsArrayWithinDistance->count() == 1){
+        echo nl2br("We found ".$coffeeshopsArrayWithinDistance->count()." HotMugg location within ".$searchRadius." mile(s) of <b>$searchText</b>.\r\n");
+    }else if($coffeeshopsArrayWithinDistance->count() >= 1){
+        echo nl2br("We found ".$coffeeshopsArrayWithinDistance->count()." HotMugg locations within ".$searchRadius." mile(s) of <b>$searchText</b>.\r\n");
+    }
+
+	$htmlToPrint = "
+    <style type=\"text/css\">
+        .tftable {font-size:12px;color:#ffffff;width:100%;border-width: 2px;border-color: #2e2e2e;border-collapse: collapse;}
+        .tftable th {font-size:13px;background-color:#2e2e2e;border-width: 2px;padding: 4px;border-style: solid;border-color: #2e2e2e;text-         align:left;}
+        .tftable tr {background-color:#4d4d4d;}
+        .tftable td {font-size:12px;border-width: 2px;padding: 4px;border-style: solid;border-color: #2e2e2e;}
+        .tftable tr:hover {background-color:#2e2e2e;}
+
+        a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #7b0001 ;
+        }
+    </style>
+    <center>
+        <center><font color=\"#ffffff\" size=\"6\">$tableHeader</font></center>
+        <table border=\"0\" style=\"width:100%\" >
+        <tr valign=\"top\">
+            <td>
+            <table border=\"0\" style=\"width:100%\"  class=\"tftable\">";
+$mapDetails = "";
+$objectCounter = 0;
+foreach ($coffeeshopsArrayWithinDistance as $shop){
+    $objectCounter++;
+    $nameWithPlus = str_replace(" ", "+", $shop->getName());
+    $mapDetails.="['".$shop->getName()."', ".$shop->getLat().", ".$shop->getLong().", ".$objectCounter."],\n"; 
+    $htmlToPrint.=("
+            <tr>
+				<th><div align=\"left\"><b><a href = \"".$shop->getLink()."\">".$shop->getName()."</a></b><br>
+                    <font color=\"#bdbdbd\"><i>".$shop->getDescription()."</i></font></div></th>
+				<td><div align=\"left\"><i><font color=\"#bdbdbd\">".$shop->getDistance()." miles away</font></i></div></td>
+				<td><div align=\"left\">
+                <a href = \"https://maps.google.com?ll=".$shop->getLat().",".$shop->getLong()."&q=".$nameWithPlus."&z=15\">
+                <i><font color=\"#bdbdbd\">".$shop->getAddress()."</font></i></a></div></td>
+            </tr>
+    ");
+}
+rtrim($mapDetails, ",");
+$htmlToPrint.=("
+        </table>
+        </td>
+        <td>
+        <div id=\"map\" style=\"width: 500px; height: 500px;\"></div>
+        <script src=\"https://maps.googleapis.com/maps/api/js\"></script>
+        <script>
+
+        function initialize() {
+            var locations = [
+                ".$mapDetails."
+            ];
+
+            window.map = new google.maps.Map(document.getElementById('map'), {
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            });
+
+        var infowindow = new google.maps.InfoWindow();
+        var bounds = new google.maps.LatLngBounds();
+        
+        var pinIcon = new google.maps.MarkerImage(
+            \"http://i.imgur.com/onz61xZ.png\",
+            null, /* size is determined at runtime */
+            null, /* origin is 0,0 */
+            null, /* anchor is bottom center of the scaled image */
+            new google.maps.Size(25, 41)
+        );  
+
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map,
+                icon: pinIcon
+            });
+
+        bounds.extend(marker.position);
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+        
+        return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+
+    map.fitBounds(bounds);
+
+    var listener = google.maps.event.addListener(map, \"idle\", function () {
+            map.setZoom(12);
+            google.maps.event.removeListener(listener);
+        });
+    }
+
+    function loadScript() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+        document.body.appendChild(script);
+        }
+
+    window.onload = loadScript;
+    </script>
+    </td>
+    </tr>
+    </table>
+	</center>
+     
+    ");
+print($htmlToPrint);
+
+echo nl2br("\r\nWant to find more HotMugg locations? <a href=\"http://www.HotMugg.com\">Try increasing the search radius.</a>");
+
+	//Calculates mile difference between two coordinates
+	function distance($lat1, $lon1, $lat2, $lon2, $unit) {
+  		$theta = $lon1 - $lon2;
+  		$dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta));
+  		$dist = acos($dist);
+  		$dist = rad2deg($dist);
+  		$miles = $dist * 60 * 1.1515;
+  		$unit = strtoupper($unit);
+  		if ($unit == "K") {
+    			return ($miles * 1.609344);
+  		} else if ($unit == "N") {
+    			return ($miles * 0.8684);
+  		} else {
+    			return $miles;
+  		}
+
+}
+
+//used to hold coffeeshop data
+class coffeeshop{
+    public $Name, $Address, $Zip, $City, $State, $Link, $Description, $Phone, $Lat, $Long, $Distance, $WithinDistance;
+    
+    //Set Variables
+    public function setName($name){$this->Name = $name;}
+    public function setAddress($address){$this->Address = $address;}    
+    public function setZip($zip){$this->Zip = $zip;}    
+    public function setCity($city){$this->City = $city;}    
+    public function setState($state){$this->State = $state;}    
+    public function setLink($link){$this->Link = $link;}    
+    public function setDescription($description){$this->Description = $description;}    
+    public function setPhone($phone){$this->Phone = $phone;}    
+    public function setLat($lat){$this->Lat = $lat;}    
+    public function setLong($long){$this->Long = $long;}    
+    public function setDistance($distance){$this->Distance = $distance;}
+    public function setWithinDistance($withinDistance){$this->WithinDistance = $withinDistance;}
+        
+    //Get Variables
+    public function getName(){return $this->Name;}
+    public function getAddress(){return $this->Address;}    
+    public function getZip(){return $this->Zip;}    
+    public function getCity(){return $this->City;}    
+    public function getState(){return $this->State;}    
+    public function getLink(){return $this->Link;}    
+    public function getDescription(){return $this->Description;}    
+    public function getPhone(){return $this->Phone;}    
+    public function getLat(){return $this->Lat;}    
+    public function getLong(){return $this->Long;}    
+    public function getDistance(){return $this->Distance;}
+    public function getWithinDistance(){return $this->WithinDistance;}//if the location is found within radius
+    
+}
+?>

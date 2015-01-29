@@ -23,6 +23,22 @@
 				<string>High</string>
 				<key>IndexFilename</key>
 				<string></string>
+				<key>MetaTags</key>
+				<array>
+					<dict>
+						<key>Content</key>
+						<string>HotMugg is dedicated to providing service that allows people to find the best independent coffee shops in their neighborhood. </string>
+						<key>Name</key>
+						<string>description</string>
+					</dict>
+					<dict>
+						<key>Content</key>
+						<string>HotMugg, Henry Mound, New York Coffee Shops, New York Coffee, NY Coffee, Coffee shops, coffee, cafes, locator, best independent coffee shops, best, independent, unique</string>
+						<key>Name</key>
+						<string>keywords</string>
+					</dict>
+					<dict/>
+				</array>
 				<key>OutputFormat</key>
 				<string>Default</string>
 				<key>OutputXMLDeclaration</key>
