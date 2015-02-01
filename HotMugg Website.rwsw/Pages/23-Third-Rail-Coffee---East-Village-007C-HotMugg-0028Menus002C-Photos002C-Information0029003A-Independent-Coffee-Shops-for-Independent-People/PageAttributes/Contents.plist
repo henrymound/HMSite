@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>Changed</key>
+				<false/>
+				<key>ColourStyles</key>
+				<dict>
+					<key>Multi FlexBand</key>
+					<dict>
+						<key>%colour_body_background%</key>
+						<string>#860101</string>
+						<key>%colour_content_background%</key>
+						<string>#804000</string>
+						<key>%colour_content_text%</key>
+						<string>#FFFFFF</string>
+						<key>%colour_extraContainer_12_background%</key>
+						<string>#A90101</string>
+						<key>%colour_extraContainer_4_background%</key>
+						<string>#A90101</string>
+						<key>%colour_header_title%</key>
+						<string>#FFFFFF</string>
+					</dict>
+				</dict>
+				<key>CreditRapidWeaver</key>
+				<false/>
+				<key>CustomCopyrightUsed</key>
+				<false/>
+				<key>CustomSiteTitleUsed</key>
+				<false/>
+				<key>CustomSloganUsed</key>
+				<false/>
+				<key>DefaultLinkTarget</key>
+				<string>self</string>
+				<key>Enabled</key>
+				<true/>
+				<key>FilenameExtension</key>
+				<string>html</string>
+				<key>FolderName</key>
+				<string>/</string>
+				<key>HasCustomThemeStyle</key>
+				<true/>
+				<key>Hidden</key>
+				<true/>
+				<key>ImageFormat</key>
+				<string>Original</string>
+				<key>ImageQuality</key>
+				<string>High</string>
+				<key>IndexFilename</key>
+				<string>ThirdRailEast.html</string>
+				<key>MetaTags</key>
+				<array>
+					<dict>
+						<key>Content</key>
+						<string>Third Rail Coffee - East Village is a coffee shop that qualifies as a HotMugg location. Third Rail Coffee is located at 159 Second Avenue, New York, NY, 10003. HotMugg - Independent coffee shops for independent people.</string>
+						<key>Name</key>
+						<string>description</string>
+					</dict>
+				</array>
+				<key>OutputFormat</key>
+				<string>Default</string>
+				<key>OutputXMLDeclaration</key>
+				<false/>
+				<key>SidebarEnabled</key>
+				<integer>1</integer>
+				<key>TextEncoding</key>
+				<string>utf-8</string>
+				<key>ThemeStyles</key>
+				<dict>
+					<key>Multi FlexBand</key>
+					<array>
+						<string>[+] combo options.Back to Top Button</string>
+						<string>[+] combo options.Disable "right click" to prevent downloading images</string>
+						<string>[+] combo options.Shadow: Title and Slogan</string>
+						<string>[+] combo options.Text uppercase: Navigation</string>
+						<string>[+] combo options.Text uppercase: Title, Sitemap</string>
+						<string>Background Grid.Off</string>
+						<string>Background Image.Choose Color below</string>
+						<string>Content Color.Title and Slogan</string>
+						<string>Extracontent.Default</string>
+						<string>Extracontent.Extracontent 4 Top - Off (hide button)</string>
+						<string>Font Text.LucidaGrande</string>
+						<string>Page.Style 3 transparent</string>
+						<string>Photo Album.Facebook + Twitter Buttons</string>
+						<string>Responsive Options.Expanded subnemu Toolbar</string>
+						<string>Responsive Options.Responsive Navigation: WebFont Off</string>
+						<string>Social Icons.No icon</string>
+						<string>Tooltip.White</string>
+						<string>WebFont: Classes + Titles.Off</string>
+						<string>Width.1140 pixel</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page Attributes</string>
+</dict>
+</plist>

@@ -313,7 +313,73 @@
         <long>-73.969673</long>
     </location>
      
+    <location>
+        <name>Sit %26 Wonder</name>
+        <address>
+            <stringAddress>688 Washington Ave, Brooklyn, NY 11238</stringAddress>
+            <zip>11238</zip>
+            <city>Brooklyn</city>
+            <state>NY</state>
+        </address>
+        <longDescription>The baby sister of Fort Greene's BitterSweet, S %26 W was founded in 2009 by owners Gemma and Lucien Redwood to provide an atmosphere for relaxation, focused work, and enjoying excellent coffee with your friends.
+        </longDescription>
+        <link>http://www.hotmugg.com/SitAndWonder.html</link>
+		<description></description>
+        <phone>7186220299</phone>
+        <lat>40.677351</lat>
+        <long>-73.963878</long>
+    </location>
+     
+    <location>
+        <name>Third Rail Coffee - Greenwich Village</name>
+        <address>
+            <stringAddress>240 Sullivan Street, New York, NY 10012</stringAddress>
+            <zip>10012</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Small, cash-only spot draws serious caffeine lovers with wide selection of brews and baked goods.
+        </longDescription>
+        <link>http://www.hotmugg.com/ThirdRailGreenwich.html</link>
+		<description></description>
+        <phone>6465801240</phone>
+        <lat>40.729986</lat>
+        <long>-73.999604</long>
+    </location>
+     
+    <location>
+        <name>Third Rail Coffee - East Village</name>
+        <address>
+            <stringAddress>159 Second Avenue (10th and Stuyvestant), New York, NY 10003</stringAddress>
+            <zip>10003</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Small, cash-only spot draws serious caffeine lovers with wide selection of brews and baked goods.
+        </longDescription>
+        <link>http://www.hotmugg.com/ThirdRailEast.html</link>
+		<description></description>
+        <phone>6465801240</phone>
+        <lat>40.729847</lat>
+        <long>-73.987319</long>
+    </location>
+     
+    <location>
+        <name>Ost Café</name>
+        <address>
+            <stringAddress>441 E 12th St, New York, NY 10009 (b/t Avenue A and 1st Ave in East Village), Alphabet City</stringAddress>
+            <zip>10009</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Old-world cafe near Tompkins Square Park specializing in coffees, wines, meats and cheeses.
+        </longDescription>
+        <link>http://www.hotmugg.com/OstCafe.html</link>
+		<description></description>
+        <phone>2124775600</phone>
+        <lat>40.729244</lat>
+        <long>-73.981376</long>
+    </location>
     
-    
-	
+
 </locations>
