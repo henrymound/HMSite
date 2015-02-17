@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SandwichFillings</key>
+	<array>
+		<dict>
+			<key>Dictionary</key>
+			<dict>
+				<key>BrowserTitle</key>
+				<string>Double Dutch Espresso | HotMugg (Menus, Photos, Information): Independent Coffee Shops for Independent People</string>
+				<key>ID</key>
+				<string>page3</string>
+				<key>MostRecentlySelectedStyleName</key>
+				<string>Custom Style</string>
+				<key>PageTitle</key>
+				<string>Double Dutch Espresso | HotMugg (Menus, Photos, Information): Independent Coffee Shops for Independent People</string>
+				<key>PluginClassName</key>
+				<string>RWHTMLPlugin</string>
+				<key>PluginMetadata</key>
+				<dict>
+					<key>Author</key>
+					<string>Realmac Software</string>
+					<key>Name</key>
+					<string>HTML Code</string>
+				</dict>
+				<key>PublishingManifest</key>
+				<dict>
+					<key>CreationDate</key>
+					<date>2015-01-27T04:44:21Z</date>
+					<key>DigestAlgorithm</key>
+					<string>MD5</string>
+					<key>DocumentGUID</key>
+					<string>14E41B04-FA35-442D-9A21-8EC2BE91AF45</string>
+					<key>PageDigests</key>
+					<dict>
+						<key>DoubleDutchHarlem.html</key>
+						<dict>
+							<key>Digest</key>
+							<data>
+							CvSKUWhV6UEIErW6ALyT
+							ZA==
+							</data>
+							<key>Size</key>
+							<integer>21705</integer>
+						</dict>
+						<key>rw_common/version.txt</key>
+						<dict>
+							<key>Digest</key>
+							<data>
+							N+zSdghICqNWmlEaY4yn
+							Tw==
+							</data>
+							<key>Size</key>
+							<integer>4</integer>
+						</dict>
+					</dict>
+					<key>PageID</key>
+					<string>page3</string>
+					<key>SiteRoot</key>
+					<string></string>
+					<key>Version</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+			<key>Files</key>
+			<array/>
+			<key>Subsandwiches</key>
+			<array>
+				<string>Data</string>
+				<string>PageAttributes</string>
+			</array>
+		</dict>
+	</array>
+	<key>Type</key>
+	<string>Page</string>
+</dict>
+</plist>

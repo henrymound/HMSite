@@ -380,6 +380,72 @@
         <lat>40.729244</lat>
         <long>-73.981376</long>
     </location>
-    
-
+     
+    <location>
+        <name>Brooklyn Roasting Company</name>
+        <address>
+            <stringAddress>25 Jay St, Brooklyn, NY 11201, (b/t John St and Plymouth St in DUMBO)</stringAddress>
+            <zip>11201</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Eco-friendly cafe serving fair-trade coffees, espresso and pastries in loft-style digs with free WiFi.
+        </longDescription>
+        <link>http://www.hotmugg.com/BrooklynRoastingCompany.html</link>
+		<description></description>
+        <phone>7188551000</phone>
+        <lat>40.704114</lat>
+        <long>-73.986476</long>
+    </location>
+     
+    <location>
+        <name>Ground Support</name>
+        <address>
+            <stringAddress>399 W Broadway, New York, NY 10012 (b/t Broome St and Watts St in SoHo)</stringAddress>
+            <zip>10012</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Low-key coffee shop with communal tables and outdoor benches pulling espresso and offering light snacks.
+        </longDescription>
+        <link>http://www.hotmugg.com/GroundSupport.html</link>
+		<description></description>
+        <phone>2122198722 </phone>
+        <lat>40.724251</lat>
+        <long>-74.001961</long>
+    </location>
+     
+    <location>
+        <name>The Roost</name>
+        <address>
+            <stringAddress>222 Ave B, New York, NY 10009 (East Village, Alphabet City)</stringAddress>
+            <zip>10009</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Cozy coffeehouse and saloon pairing java, pastries and more with a bar hidden behind sliding doors.
+        </longDescription>
+        <link>http://www.hotmugg.com/TheRoost.html</link>
+		<description></description>
+        <phone>6469186700</phone>
+        <lat>40.7290152</lat>
+        <long>-73.9784435</long>
+    </location>
+     
+    <location>
+        <name>Two Hands Coffee</name>
+        <address>
+            <stringAddress>164 Mott St, New York 10013 (Btwn Grand and Broome St)</stringAddress>
+            <zip>10013</zip>
+            <city>New York</city>
+            <state>NY</state>
+        </address>
+        <longDescription>Bright and airy cafe with juices and espresso drinks plus light fare like pastries, salads and sandwiches.
+        </longDescription>
+        <link>http://www.hotmugg.com/TwoHands.html</link>
+		<description></description>
+        <phone>9174751815</phone>
+        <lat>40.71966</lat>
+        <long>-73.996034</long>
+    </location>
 </locations>
